@@ -105,3 +105,22 @@ nav {
     right: 150px;
     position: absolute;
 }
+
+footer {
+    height: 150px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: yellow;
+}
