@@ -107,7 +107,19 @@ nav {
 }
 
 footer {
-    height: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(15,15,15)
+}
+
+#footer-message {
+    float: left;
+    width: 40%;
+}
+
+#footer-links {
+    width: 60%;
 }
 
 .social-links {
@@ -119,8 +131,8 @@ footer {
 }
 
 .social-links i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 120%;
+    margin: 4%;
+    padding: 3%;
     color: yellow;
 }
