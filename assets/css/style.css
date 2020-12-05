@@ -8,14 +8,23 @@
 
 body {
     font-family: Quicksand, sans-serif;
-    color: #000;
+    color: yellow;
+    background-color: rgb(15,15,15);
+    font-weight: light;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(15,15,15);
 }
 
 h2 {
     font-family: Rokkitt, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #555555;
+    color: yellow;
 }
 
 nav {
@@ -29,14 +38,33 @@ nav {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 90%;
     list-style-type: none;
-    letter-spacing: 4px;
     display: flex;
 }
 
+#logo, #menu {
+    line-height: 75px;
+}
+
 #menu li {
-    
     margin-right: 30px;
 }
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid yellow;
+}
+
+.active {
+    border-bottom: 1px solid yellow;
+}
+
+.example {
+    background-color: white;
+    height: 1000px
+}
