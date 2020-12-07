@@ -174,7 +174,9 @@ footer {
 
 /*-------------------------------------------media links*/
 
-@media screen and (max-width: 720px) {
+/*-------------------------------------------header*/
+
+@media screen and (max-width: 770px) {
     nav {
         display: block;
     }
@@ -191,5 +193,18 @@ footer {
         text-align: center;
     }
 
+/*-------------------------------------------footer*/
 
-}
+    #footer-message {
+        display: none;
+    }
+
+    #footer-links {
+        display: block;
+        width: 100%;
+    }
+
+     #footer-links i {
+        margin: 0px 5px 0px 5px;
+        padding: 3%; 
+    }
