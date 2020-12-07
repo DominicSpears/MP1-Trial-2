@@ -138,6 +138,11 @@ footer {
     font-size: 120%;
 }
 
+#footer-message i:hover {
+    color: #F03620;
+    font-size: 120%;
+}
+
 #footer-links {
     width: 60%;
 }
@@ -155,8 +160,15 @@ footer {
     padding: 3%;
     margin-right: 20px;
     color: yellow;
+    border: 2px solid transparent;
+    border-radius: 50%;
 }
 
+.social-links i:hover {
+    color: #F03620;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
 /*-------------------------------------------media links*/
 
 /*-------------------------------------------header*/
