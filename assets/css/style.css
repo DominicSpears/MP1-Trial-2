@@ -11,10 +11,12 @@ body {
     color: yellow;
     background-color: white;
     font-weight: light;
+    background-color: #201F24;
 }
 
 header {
     background-color: rgb(15,15,15);
+    border-bottom: 2px solid yellow;
 }
 
 h2 {
@@ -64,7 +66,7 @@ nav {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("https://www.electronics-lab.com/wp-content/uploads/2020/12/giveaway.png") no-repeat center center;
+    background: url("https://aeab3054-1b38-46d2-9cc7-7fa951a8a18f.ws-eu03.gitpod.io/mini-browser/workspace/MP1-Trial-2/assets/images/combo.jpg") no-repeat center center;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -104,6 +106,11 @@ nav {
     bottom: 30px;
     right: 150px;
     position: absolute;
+}
+
+hr {
+    border: 2px solid yellow;
+    margin: 75px;
 }
 
 footer {
