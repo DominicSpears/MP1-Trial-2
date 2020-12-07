@@ -9,11 +9,10 @@
 body {
     font-family: Quicksand, sans-serif;
     color: yellow;
-    background-color: white;
     font-weight: light;
     background-color: #201F24;
 }
-
+/*-------------------------------------------header*/
 header {
     background-color: rgb(15,15,15);
     border-bottom: 2px solid yellow;
@@ -64,6 +63,8 @@ nav {
     border-bottom: 1px solid yellow;
 }
 
+/*-------------------------------------------Section 1-Hero image*/
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -109,10 +110,14 @@ nav {
     position: absolute;
 }
 
+/*-------------------------------------------hr*/
+
 hr {
     border: 2px solid yellow;
     margin: 75px;
 }
+
+/*-------------------------------------------Section 2-table*/
 
 table {
     width: 90%;
@@ -127,6 +132,8 @@ table, th, td {
 td, th {
     padding: 15px;
 }
+
+/*-------------------------------------------footer*/
 
 footer {
     height: 150px;
@@ -163,4 +170,26 @@ footer {
     padding: 3%;
     margin-right: 20px;
     color: yellow;
+}
+
+/*-------------------------------------------media links*/
+
+@media screen and (max-width: 720px) {
+    nav {
+        display: block;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #menu li {
+        text-align: center;
+    }
+
+
 }
