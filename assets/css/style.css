@@ -21,7 +21,7 @@ h2 {
     font-family: Rokkitt, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: yellow;
+    color: white;
 }
 
 nav {
@@ -70,7 +70,7 @@ nav {
     background: url("https://aeab3054-1b38-46d2-9cc7-7fa951a8a18f.ws-eu03.gitpod.io/mini-browser/workspace/MP1-Trial-2/assets/images/combo.jpg") no-repeat center center;
 }
 
-#cover-text, h2 {
+#cover-text h2 {
     color: white;
 }
 
@@ -79,10 +79,12 @@ nav {
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    width: 1200px;
-    height: 150px;
+    width: 80%;
+    height: auto;
     padding-top: 35px;
     padding-left: 35px;
+    padding-bottom: 35px;
+    padding-right: 35px;
     background-color: rgba(241, 109, 107, .7);
     margin: 0 auto;
     border-top: 2px solid yellow;
