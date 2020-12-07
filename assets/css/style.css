@@ -9,7 +9,6 @@
 body {
     font-family: Quicksand, sans-serif;
     color: yellow;
-    font-weight: light;
     background-color: #201F24;
 }
 /*-------------------------------------------header*/
@@ -69,29 +68,9 @@ nav {
     height: 600px;
     width: 100%;
     background: url("https://aeab3054-1b38-46d2-9cc7-7fa951a8a18f.ws-eu03.gitpod.io/mini-browser/workspace/MP1-Trial-2/assets/images/combo.jpg") no-repeat center center;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode:forwards;
 }
 
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-#cover-text, cover-text h2 {
+#cover-text, h2 {
     color: white;
 }
 
@@ -99,21 +78,20 @@ nav {
     font-size: 100%;
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 600px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    letter-spacing: 1px;
+    width: 1200px;
+    height: 150px;
+    padding-top: 35px;
+    padding-left: 35px;
     background-color: rgba(241, 109, 107, .7);
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
+    margin: 0 auto;
+    border-top: 2px solid yellow;
 }
 
 /*-------------------------------------------hr*/
 
 hr {
-    border: 2px solid yellow;
+    border-top: 2px solid yellow;
     margin: 75px;
 }
 
