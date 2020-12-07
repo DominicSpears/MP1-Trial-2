@@ -64,10 +64,12 @@ nav {
 
 /*-------------------------------------------Section 1-Hero image*/
 
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url("https://aeab3054-1b38-46d2-9cc7-7fa951a8a18f.ws-eu03.gitpod.io/mini-browser/workspace/MP1-Trial-2/assets/images/combo.jpg") no-repeat center center;
+.hero-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cover-text h2 {
@@ -94,13 +96,13 @@ nav {
 
 hr {
     border-top: 2px solid yellow;
-    margin: 75px;
+    margin: 75px 5% 75px 5%;
 }
 
 /*-------------------------------------------Section 2-table*/
 
 table {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;   
 }
 
