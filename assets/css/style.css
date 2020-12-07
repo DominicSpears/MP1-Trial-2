@@ -31,8 +31,8 @@ nav {
 
 #logo {
     float: left;
-    font-size: 200%;
-    margin-left: 35px;
+    font-size: 400%;
+    margin-left: 15px;
 }
 
 #menu {
@@ -42,7 +42,7 @@ nav {
 }
 
 #logo, #menu {
-    line-height: 75px;
+    line-height: 150px;
 }
 
 #menu li {
@@ -52,10 +52,13 @@ nav {
 #menu a {
     text-decoration: none;
     color: inherit;
+    border: 2px solid transparent;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid yellow;
+    background-color: yellow;
+    border: 2px solid #F03620;
+    color: black;
 }
 
 .active {
@@ -87,7 +90,7 @@ nav {
     padding-left: 35px;
     padding-bottom: 35px;
     padding-right: 35px;
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(240, 54, 32, .7);
     margin: 0 auto;
     border-top: 2px solid yellow;
 }
@@ -158,7 +161,7 @@ footer {
 
 /*-------------------------------------------header*/
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 850px) {
     nav {
         display: block;
     }
@@ -169,10 +172,24 @@ footer {
 
     #menu {
         display: block;
+        line-height: 75px;
     }
 
     #menu li {
         text-align: center;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+        border: 2px solid transparent;
+    }
+
+    #menu a:hover {
+        background-color: yellow;
+        padding: 10px 40px 10px 40px; 
+        border: 2px solid #F03620;
+        color: black;
     }
 
 /*-------------------------------------------footer*/
