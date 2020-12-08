@@ -228,15 +228,16 @@ td:nth-child(2) {
 .card-body {
     background-color: #201F24;
     border-left: 3px solid yellow;
-    border-right: 3px solid yellow;   
+    border-right: 3px solid yellow; 
+    text-align: center;
 }
 
 .inner-card {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   width: 200px;
   display: inline-block;
+  margin: 1% 5% 1% 5%;
 }
 
 /* On mouse-over, add a deeper shadow */
