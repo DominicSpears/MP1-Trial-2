@@ -204,7 +204,54 @@ td:nth-child(2) {
 
 /*-------------------------------------------acordian*/
 
+.accordion {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #201F24;
+}
 
+.card-header {
+    border: 3px solid yellow;
+    background-color: #B22F21;
+}
+
+.card-header button {
+    color: white;
+}
+
+.card-header button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.card-body {
+    background-color: #201F24;
+    border-left: 3px solid yellow;
+    border-right: 3px solid yellow;   
+}
+
+.inner-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 200px;
+  display: inline-block;
+}
+
+/* On mouse-over, add a deeper shadow */
+.inner-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.inner-card img{
+    height: 200px;
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
+}
 
 /*-------------------------------------------video*/
 
