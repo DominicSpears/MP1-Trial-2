@@ -60,7 +60,7 @@ nav {
     color: black;
 }
 
-.active {
+nav .active {
     border-bottom: 2px solid yellow;
 }
 
@@ -186,6 +186,28 @@ td:nth-child(2) {
     width: 100%;
 }
 
+/*-------------------------------------------carousel*/
+
+.carousel{
+    background: rgba(240, 54, 32, .7);
+    margin-top: 20px;
+    border-right: 2px solid yellow;
+}
+.carousel-item{
+    min-height: 280px;
+}
+
+.carousel-item img {
+    width: 700px;
+    padding: 20px 0px 60px 20px;
+}
+
+/*-------------------------------------------acordian*/
+
+
+
+/*-------------------------------------------video*/
+
 .video-container {
     position: relative;
     width: 100%;
@@ -203,20 +225,6 @@ td:nth-child(2) {
     position: absolute;
     width: 60%;
     height: 60%;
-}
-
-.carousel{
-    background: rgba(240, 54, 32, .7);
-    margin-top: 20px;
-    border-right: 2px solid yellow;
-}
-.carousel-item{
-    min-height: 280px;
-}
-
-.carousel-item img {
-    width: 700px;
-    padding: 20px;
 }
 
 /*-------------------------------------------footer*/
