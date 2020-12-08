@@ -36,15 +36,15 @@
             <p>Sign up info</p>
         </div>
         <div class="form-section">
-            <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <form class="signup-form" method="POST" action="#">
                 <label for="fname">First Name</label>
-                <input class="text-input" type="text" id="first-name" name="first_name" required/>
+                <input class="text-input" type="text" id="first-name" name="first_name" placeholder="Your first name..." required/>
                 <label for="lname">Last Name</label>
-                <input class="text-input" type="text" id="last-name" name="last_name" required/>
+                <input class="text-input" type="text" id="last-name" name="last_name" placeholder="Your last name..." required/>
                 <label for="email">Email Address</label>
-                <input class="text-input" id="email" type="email" name="email_address" required/>
+                <input class="text-input" id="email" type="email" name="email_address" placeholder="Your email..." required/>
                 <label for="email">Repeat Email Address</label>
-                <input class="text-input" id="repeat-email" type="email" name="email_address" required/>
+                <input class="text-input" id="repeat-email" type="email" name="email_address" placeholder="Repeat your email..." required/>
                 <hr id="hr-comp">
                 <div id="comp-section">
                     <div id="comp-info">
@@ -52,10 +52,17 @@
                         <p>competition information</p>
                     </div>
                     <div id="comp-input">
-                        <label for="road">Playstation 5</label>
-                        <input id="road" type="radio" name="chosen_console" value="road" required/>
-                        <label for="trail">Xbox X Series</label>
-                        <input id="trail" type="radio" name="chosen_console" value="trail"/>
+                        <div class="comp-input-inner">
+                            <label for="road">Playstation 5</label>
+                            <input id="road" type="radio" name="chosen_console" value="ps5" required/>
+                        </div>
+                        <div class="comp-input-inner">
+                            <label for="trail">Xbox X Series</label>
+                            <input id="trail" type="radio" name="chosen_console" value="xbox"/>
+                        </div>
+                        <div class="comp-input-inner">
+                            <textarea id="reason" name="reason" placeholder="Tell us why..." required></textarea>
+                        </div>
                     </div>
                 </div>
                 <input class="join-button" type="submit" value="Sign Me Up!"/>

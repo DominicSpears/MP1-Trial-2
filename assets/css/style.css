@@ -306,7 +306,6 @@ input[type=text], input[type=email] {
 }
 
 #comp-info {
-    border: 2px solid yellow;
     color: white;
     width: 50%;
 }
@@ -314,6 +313,18 @@ input[type=text], input[type=email] {
 #comp-input {
     width: 50%;
     padding: 10px;
+}
+
+#comp-input label {
+    width: auto;
+}
+
+.comp-input-inner {
+    width: 100%;
+}
+
+#reason {
+    width: 100%;
 }
 
 .join-button {
