@@ -135,10 +135,12 @@ td, th {
 
 th:nth-child(2) {
     background-color: rgba(240, 54, 32, .7);
+    color: white;
 }
 
 td:nth-child(2) {
     background-color: rgba(240, 54, 32, .7);
+    color: white;
 }
 
 /*-------------------------------------------footer*/
